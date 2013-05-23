@@ -4,7 +4,9 @@
 $red: #f00;
 $white: #fff;
 $black: #000;
+$light-gray: #eee;
 $bottom-margin: 20;
+
 
 
 /* Sass mixins */
@@ -96,11 +98,24 @@ a.button { display: block; background-color: $red; color: $white; padding: .5em;
 a.button:hover { background-color:$black; }
 
 
+.column {background-color: $light-gray; margin-bottom: 1em; }
 
 
 
+/* grid ----------------------------------------------------------------- */
 
-/* Footer ----------------------------------------------------------------- */
+img {max-width: 100%;}
 
+@media only screen and (max-width: 1000px) { 
+  body {font-size: 80%; }
+  /*.container { width: 95%; }
+  .grid_3, .grid_12 {display: block; clear: both;
+	  width: 100%; float: none; margin-left: 0; margin-right: 0; }
+	  */
+}
 
+@media only screen and (max-width: 600px) { 
+  body {font-size: 70%; }
+  
+ }
 

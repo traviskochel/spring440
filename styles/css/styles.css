@@ -115,4 +115,12 @@ a.button {
 a.button:hover {
   background-color: black; }
 
-/* Footer ----------------------------------------------------------------- */
+.column {
+  background-color: #eeeeee;
+  margin-bottom: 1em; }
+
+.hovering {font-size: 2em; }
+.clicked {background-color: #f00; }
+
+/* grid ----------------------------------------------------------------- */
+
