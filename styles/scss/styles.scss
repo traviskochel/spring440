@@ -102,20 +102,14 @@ a.button:hover { background-color:$black; }
 
 
 
-/* grid ----------------------------------------------------------------- */
 
-img {max-width: 100%;}
+/* slideshow ----------------------------------------------------------------- */
 
-@media only screen and (max-width: 1000px) { 
-  body {font-size: 80%; }
-  /*.container { width: 95%; }
-  .grid_3, .grid_12 {display: block; clear: both;
-	  width: 100%; float: none; margin-left: 0; margin-right: 0; }
-	  */
-}
+.highlighted{background-color:$red !important; }
 
-@media only screen and (max-width: 600px) { 
-  body {font-size: 70%; }
-  
- }
+.slide {background-color:$light-gray; display:none; }
+
+.current{display:block; }
+
+
 

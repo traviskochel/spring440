@@ -119,8 +119,13 @@ a.button:hover {
   background-color: #eeeeee;
   margin-bottom: 1em; }
 
-.hovering {font-size: 2em; }
-.clicked {background-color: #f00; }
+/* slideshow ----------------------------------------------------------------- */
+.highlighted {
+  background-color: red !important; }
 
-/* grid ----------------------------------------------------------------- */
+.slide {
+  background-color: #eeeeee;
+  display: none; }
 
+.current {
+  display: block; }
